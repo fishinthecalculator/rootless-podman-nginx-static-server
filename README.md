@@ -1,12 +1,10 @@
-> ⚠️ Deprecated use [docker-static](https://github.com/cupcakearmy/docker-static)
-
-# Nginx Docker Static Files Server 🐳
+# Nginx Rootless Podman Static Files Server 🦭
 
 Small boilerplate for static serving the `./data` directory.
 
 1. Create `data` dir.
-2. Put files inside.
-3. `docker-compose up -d`
+2. Put files inside, something like `echo hello world > data/index.html`
+3. `podman compose up -d`
 
 #### Autoindex
 
